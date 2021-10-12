@@ -6,3 +6,4 @@
 <p>Typed :  {{myInput}}</p>
 
 <app-child></app-child>
+<app-form [data]="formData" [title]="formTitle"  (saveEvent)="onSaveForm($event)"  ></app-form>
