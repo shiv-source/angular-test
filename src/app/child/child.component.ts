@@ -18,7 +18,7 @@ export class ChildComponent implements OnInit {
   
     this.svc.reciveMsg().subscribe( (val:any )  => {
       console.log( "Shiv kumar", val);
-      this.msg = val.name;
+      this.msg = val;
     })
   }
 
