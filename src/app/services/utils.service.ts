@@ -5,8 +5,8 @@ import { BehaviorSubject, Observable, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class UtilsService {
-
- subject  = new Subject<any>();
+ 
+ subject = new BehaviorSubject({name : "Welcome"})
  data : any;
 
   constructor() { }

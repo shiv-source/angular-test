@@ -18,6 +18,6 @@ export class HomeComponent implements OnInit {
   }
 
   sendData(e:any){
-    this.svc.sendMsg(this.myInput);
+    this.svc.sendMsg({name : this.myInput});
   }
 }
